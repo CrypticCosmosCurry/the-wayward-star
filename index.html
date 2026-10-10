@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Wayward Star</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+   <header>
+    <h1>The Wayward Star</h1>
+    <p><em>News and education on all things space & STEM</em></p>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#space-news">Space News</a>
+        <a href="#stem-news">STEM News</a>
+        <a href="#launches">Upcoming Launches</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<main>
+
+    <section id="home" class="featured-story">
+        <h2>Featured Story</h2>
+
+        <img src="images/andromeda.jpg"
+             alt="The Andromeda Galaxy surrounded by stars"
+             class="responsive-img">
+
+        <h3>Our Neighbor in the Cosmos: The Andromeda Galaxy</h3>
+
+        <p>
+            The <strong>Andromeda Galaxy</strong> is one of the closest
+            major galaxies to the Milky Way and contains billions of stars.
+            Studying nearby galaxies like Andromeda can help scientists better
+            understand how galaxies form and change over time.
+        </p>
+
+        <p>
+            <em>Even our closest galactic neighbor is millions of light-years away.</em>
+        </p>
+
+        <p>
+            <a href="https://science.nasa.gov/universe/galaxies/" target="_blank">
+                Learn more about galaxies from NASA
+            </a>
+        </p>
+    </section>
+
+    <section id="space-news">
+    <h2>Latest Space News</h2>
+
+    <div class="space-fact">
+        <strong>Did You Know?</strong>
+        <p>
+            The light we see from the Andromeda Galaxy has traveled
+            through space for more than two million years.
+        </p>
+    </div>
+
+    <h3>NASA Continues Preparing for Future Moon Missions</h3>
+    <p>
+        NASA continues to develop new technology and mission plans
+        for future exploration of the Moon and beyond.
+    </p>
+    <p>
+        <a href="https://www.nasa.gov/" target="_blank">
+            Read more from NASA
+        </a>
+    </p>
+
+    <h3>James Webb Space Telescope Studies the Universe</h3>
+    <p>
+        The James Webb Space Telescope continues to help scientists
+        study distant stars, galaxies, and planets in greater detail.
+    </p>
+    <p>
+        <a href="https://science.nasa.gov/mission/webb/" target="_blank">
+            Learn more about the Webb Telescope
+        </a>
+    </p>
+</section>
+
+    <section id="stem-news">
+    <h2>STEM News</h2>
+
+    <h3>New Discoveries in Science and Technology</h3>
+    <p>
+        Researchers around the world continue to make new discoveries
+        in science, technology, engineering, and mathematics.
+    </p>
+    <p>
+        <a href="https://www.nsf.gov/" target="_blank">
+            Explore research from the National Science Foundation
+        </a>
+    </p>
+
+    <h3>Exploring the World of Particle Physics</h3>
+    <p>
+        Scientists at CERN study some of the smallest particles in the universe
+        to better understand how matter and energy work.
+    </p>
+    <p>
+        <a href="https://home.cern/" target="_blank">
+            Learn more from CERN
+        </a>
+    </p>
+</section>
+
+    <section id="launches">
+    <h2>Upcoming Launches</h2>
+
+    <table class="launch-table">
+        <tr>
+            <th>Mission</th>
+            <th>Date</th>
+            <th>Organization</th>
+            <th>Destination</th>
+        </tr>
+
+        <tr>
+            <td>Artemis II</td>
+            <td>2026</td>
+            <td>NASA</td>
+            <td>Moon</td>
+        </tr>
+
+        <tr>
+            <td>Europa Clipper</td>
+            <td>In Progress</td>
+            <td>NASA</td>
+            <td>Jupiter System</td>
+        </tr>
+
+        <tr>
+            <td>JUICE</td>
+            <td>In Progress</td>
+            <td>ESA</td>
+            <td>Jupiter System</td>
+        </tr>
+    </table>
+
+<h3>Featured Mission Video</h3>
+
+<p>
+    Learn more about the Nancy Grace Roman Space Telescope and its mission
+    to explore the universe.
+</p>
+
+<iframe class="responsive-video"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/9wq3VHsL_bE?si=6su6oRSaGDGK8fqz"
+        title="Nancy Grace Roman Space Telescope"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+</iframe>
+
+</section>
+
+    <section id="contact">
+    <h2>Contact & Feedback</h2>
+
+    <p>
+        Have a question, suggestion, or story idea? Send us a message below.
+    </p>
+
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="topic">Topic:</label><br>
+        <select id="topic" name="topic">
+            <option value="space-news">Space News</option>
+            <option value="stem-news">STEM News</option>
+            <option value="feedback">Website Feedback</option>
+            <option value="story-idea">Story Idea</option>
+        </select><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="6" cols="40"></textarea><br><br>
+
+        <input type="submit" value="Send Message">
+    </form>
+</section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 The Wayward Star</p>
+</footer>
+
+</body>
+</html>
